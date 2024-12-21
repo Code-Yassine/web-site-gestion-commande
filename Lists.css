@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F2F4F5;
+}
+
+.btn-add{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid  #ccc;    
+    background-color:#8697a8;
+    color: white;
+    margin: 20px 10px;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #80b49c;
+}
+.btn-add:hover{
+    background-color: #758698;
+}
+table{
+    margin: 10px;
+    text-align: center;
+    padding: 0;
+}
+table tr td{
+    border-top: 1px solid #ccc;
+    width: 100px;
+    padding: 10px;
+}
+table tr th{
+    padding: 10px;
+}
+.btn-action{
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.delete{
+    background-color: rgb(185, 131, 131);
+    color: white;
+}
+.edit{
+    background-color:#8FBC8F;
+    color: white;
+}
+.delete:hover{
+    background-color:rgb(179, 91, 91);
+}
+.edit:hover{
+    background-color:#618461;
+}
+h2{
+    color: #8FBC8F;
+}
+
+.notification {
+    position: absolute;
+    top: 25px;
+    left: 650px;
+    transform: translateX(-50%);
+    background-color: #7fb2be;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    z-index: 1000;
+}
+.add-dic {
+    display: flex;
+    justify-content: space-between;
+}
+.table{
+    width: 98%;
+    /* overflow: auto; 
+    max-height: 420px; */
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    position: absolute;
+    left: 17px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.profil{
+    display: flex;
+    justify-content: space-around;
+}
+header h4{
+    margin-top: 32px;
+}
+header a{
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+    text-align: center;
+  }
+.image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color:black;
+    margin: 10px;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 5px 5px 5px;
+    margin-right: 50px;
+  }
+li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+ul a:hover{
+    color:black ;
+}

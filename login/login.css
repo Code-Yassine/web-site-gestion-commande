@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: #f1f7ff;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contuner{
+    width: 400px;
+    margin-bottom: 5px;
+    border: 1px solid  #ccc;
+    border-radius:5px;      
+    padding: 20px;
+}
+.contuner h1{
+    text-align:center;
+    font-size: 36px;
+    color: rgb(77, 106, 130);
+}
+label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid  #ccc;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size:20px;
+}
+.button{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    background-color: #8697a8;
+    color: #fff;
+    border: 1px solid  #ccc;
+    border-radius: 5px;
+}
+.input-box input::placeholder{
+    color:rgb(103, 112, 121);
+}
+.remmeber-forgot{
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+}
+.remmeber-forgot label input{
+    accent-color: #88e58b;
+    margin-right:3px;
+}
+.remmeber-forgot a{
+    color: #8991e6;
+    text-decoration: none;
+}
+.remmeber-forgot a:hover{
+    text-decoration: underline;
+}
+.remmeber-forgot label{
+    color: #8991e6;
+}
+.notification-failure{
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #bd6a6a;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    z-index: 1000;
+}
